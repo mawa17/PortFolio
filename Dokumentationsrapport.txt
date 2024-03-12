@@ -14,6 +14,7 @@ Indholdsfortegnelse
     6 Konklusion
     7 Logbog
     8 Link til hjemmeside og CV
+
 3
 Hjemmeside/CV kode
     <!DOCTYPE html>
@@ -33,6 +34,7 @@ Hjemmeside/CV kode
             </div>
         </body>
     </html>
+
 4
 Forklarning af git
     1. Du skal forklar hvorfor git findes?
@@ -94,6 +96,7 @@ Projekt oprettelse med git
     2. Hvad er en merge conflict? Hvordan løser man en merge conflict?
         En merge conflict er hvor flere forsklige branchs har ændret samme fil
         Den normale måde at løse det på er de 2 udviklere som har lavet ændringer går sammen og løser det ved at lavet et nyt commit
+
 6
 Konklusion
     Jeg har lært hvordan git og github virker og hvad versionskontrol er

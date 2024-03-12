@@ -1,0 +1,13 @@
+
+1. Dokumenter hele processen. Fra oprettelse til hvordan man laver et commit for en Readme.txt fil.
+    åben cmd.exe
+        Skift drev -> "c:"
+        Åben mappe -> cd "C:\Users\marwa\Desktop\Opgaver\PortFolio"
+        Lav Readme.md fil -> "cd .> Readme.md"
+        Lav Repo -> "git init"
+        Tilføj filer -> "git add *"
+        Lav commit -> "git commit -m 'en-besked'"
+
+2. Hvad er en merge conflict? Hvordan løser man en merge conflict?
+    En merge conflict er hvor flere forsklige branchs har ændret samme fil
+    Den normale måde at løse det på er de 2 udviklere som har lavet ændringer går sammen og løser det ved at lavet et nyt commit

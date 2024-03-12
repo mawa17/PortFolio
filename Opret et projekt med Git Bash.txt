@@ -7,6 +7,8 @@
         Lav Repo -> "git init"
         Tilføj filer -> "git add *"
         Lav commit -> "git commit -m 'en-besked'"
+        Klargøre til github -> git remote add origin "URL.git"
+        Tilføj til github -> "git push origin master"
 
 2. Hvad er en merge conflict? Hvordan løser man en merge conflict?
     En merge conflict er hvor flere forsklige branchs har ændret samme fil

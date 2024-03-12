@@ -1,0 +1,109 @@
+1
+Dokumentationsrapport
+    Af Marcus W (Data- og kommunikationsuddannelsen med speciale i programmering)
+
+Opgave titel: Lær hvad git, gitbash, github og version control er
+
+2
+Indholdsfortegnelse
+    1 Opgave titel
+    2 Indholdsfortegnelse
+    3 Hjemmeside/CV kode
+    4 Forklarning af git
+    5 Projekt oprettelse med git
+    6 Konklusion
+    7 Logbog
+    8 Link til hjemmeside og CV
+3
+Hjemmeside/CV kode
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>En fungerende hjemmeside</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+        </head>
+        <body>
+            <div class="container" align="center">
+                <h1>Hej jeg hedder Marcus W</h1>
+                <h2>Her er mit CV</h2>
+                <img src="CV.png">
+            </div>
+        </body>
+    </html>
+4
+Forklarning af git
+    1. Du skal forklar hvorfor git findes?
+        Det er et bedre alternativ end manuelt backup tagning af filer
+
+    2. Hvad gør git og hvorfor er det brugbart?
+        Git er en version control produkol som holder styr på ændringer af filer
+
+    3. Hvordan bruger man git på et projekt, når man er flere udvikler?
+        Git har noget som hedder branchs som er flere kopier af project med flere forsklige tilstande
+            • Sender man projektfilerne til hinanden og arbejder på skift?
+                Nej man udvikler på en branch og tilsidst laves et merge
+
+    4. Når vi arbejder med git, hvad betyder det så, når vi har et projekt eller Repository?
+        Et repository eller repo er et projekt med git protokollen
+
+    5. Hvordan arbejder git?
+        Man kan tilgå git kommandoer gennem git bash
+
+    6. Hvad er et Commit?
+        Det er git's måde at gemme den nuværende tilstand at projekt på nuværende branch (det er lidt ligesom en backup eller restore point LOKALT PÅ DIN PC)
+
+    7. Hvad er en Branching og Hvad er Master/Main?
+        En branch er en tilstand eller separat udviklings miljøe
+            • Hvad er forskellen?
+                Master eller Main branchen er som regel hovde branchen hvor alle de andre branchs bliver merged ind i
+
+    8. Hvad er Merging?
+        Når alle de forsklige branchs er klar til at blive sammenflettet med Master eller main branchen kan man lave et merge
+
+    9. Hvad er git Clone?
+        Hvis du gerne vil hente et repository eller repo kan man hente det med "git clone URL.git"
+    
+    10. Hvorfor bruger man som udvikler versionskontrol ->> git?
+        Så hvis noget går galt kan man tilbagetrække ændringer da git holder styr på hvert tegn ændret
+
+    11. Forklar om Developer Workflow med git – hvordan det forløber?
+        Normalt er der en feature branch hvor nye ting bliver udviklet på
+        Når alle de nye features er klar laves et merge ind i Master eller Main branchen
+
+    12. Vis visuelt hvordan Master og flere branchs vil se ud for et givet projekt
+        Forstil dig et træ hvor træ stammen er Master eller Main branchen
+        Når en ny branch oprettes kommer der en separat gren på træet også kaldes en branch
+        Når en branch er klar Forstil dig at grenen bliver bøjget tilbage ind i træ stammen som også kaldes et merge
+
+5
+Projekt oprettelse med git
+    1. Dokumenter hele processen. Fra oprettelse til hvordan man laver et commit for en Readme.txt fil.
+        åben cmd.exe
+            Skift drev -> "c:"
+            Åben mappe -> cd "C:\Users\marwa\Desktop\Opgaver\PortFolio"
+            Lav Readme.md fil -> "cd .> Readme.md"
+            Lav Repo -> "git init"
+            Tilføj filer -> "git add *"
+            Lav commit -> "git commit -m 'en-besked'"
+            Klargøre til github -> git remote add origin "URL.git"
+            Tilføj til github -> "git push origin master"
+
+    2. Hvad er en merge conflict? Hvordan løser man en merge conflict?
+        En merge conflict er hvor flere forsklige branchs har ændret samme fil
+        Den normale måde at løse det på er de 2 udviklere som har lavet ændringer går sammen og løser det ved at lavet et nyt commit
+6
+Konklusion
+    Jeg har lært hvordan git og github virker og hvad versionskontrol er
+
+7
+Logbog
+    Den 12/03/2024 har jeg
+
+    Færdig gjort opgaven "Port Folio – Hjemmeside"
+    Og Havde 0 problemer
+
+8
+https://mawa17.github.io/
